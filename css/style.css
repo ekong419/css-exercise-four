@@ -7,13 +7,6 @@ body {
   font-size: 10px;
 }
 
-div {
-  float: center;
-  margin: 0;
-  width: 90%
-  padding: 50px
-}
-
 h1 {
   margin: 20px auto;
   width: 90%;
@@ -26,12 +19,13 @@ h1 {
 
 .container {
   box-sizing: border-box;
-  margin: 20px auto;
+  margin: 0 auto;
   width: 90%;
-  margin: 50px;
+  margin: 8px;
   padding: 50px;
   height: 100px;
   border: 2px solid #dadada;
+  display: block;
 }
 
 h2 {
@@ -46,7 +40,8 @@ h2 {
 .preview baku {
   background: #dadada url(index/baku.jpg) no-repeat center contain;
   margin: 20px auto;
-  width: 90%;
+  width: 60%;
+
 }
 
 .preview London {
