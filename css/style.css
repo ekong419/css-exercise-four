@@ -1,4 +1,84 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+div {
+  float: center;
+  margin: 0;
+  width: 90%
+  padding: 50px
+}
+
+h1 {
+  margin: 20px auto;
+  width: 90%;
+  text-align: center;
+  background-color: #dadada;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 125%;
+}
+
+.container {
+  box-sizing: border-box;
+  margin: 20px auto;
+  width: 90%;
+  margin: 50px;
+  padding: 50px;
+  height: 100px;
+  border: 2px solid #dadada;
+}
+
+h2 {
+  margin: 20px auto;
+  width: 90%;
+  text-align: left;
+  font-family: TimesNewRoman, serif;
+  font-weight: 400;
+  font-size: 200%;
+}
+
+.preview baku {
+  background: #dadada url(index/baku.jpg) no-repeat center contain;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.preview London {
+  background: #dadada url(index/london.png) no-repeat center contain;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.preview Madrid {
+  background: #dadada url(index/madrid.jpg) no-repeat center contain;
+  margin: 20px auto;
+  width: 90%;
+}
+
+.preview Rome {
+  background: #dadada url(index/rome.jpg) no-repeat center contain;
+  margin: 20px auto;
+  width: 90%;
+}
+
+/* code added to create two-column design */
+@media all and (min-width: 575px){
+  div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+/* code added to create four-column design */
+@media all and (min-width: 991px){
+  div {
+    margin: auto;
+    width: 26%;
+  }
 }
