@@ -8,62 +8,85 @@ body {
 }
 
 h1 {
-  margin: 20px auto;
+  margin: 10px;
   width: 90%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
   text-align: center;
   background-color: #dadada;
   font-family: Montserrat, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 125%;
+  text-transform: uppercase;
 }
 
 .container {
   box-sizing: border-box;
-  margin: 0 auto;
-  width: 90%;
-  margin: 8px;
-  padding: 50px;
-  height: 100px;
+  margin: 10px;
+  width: 100%;
+  padding: 100px;
   border: 2px solid #dadada;
-  display: block;
+  float: left;
 }
 
 h2 {
-  margin: 20px auto;
+  margin: 5px;
+  padding-top: 0%;
   width: 90%;
   text-align: left;
   font-family: TimesNewRoman, serif;
   font-weight: 400;
   font-size: 200%;
+  display: inline-block;
 }
 
-.preview baku {
-  background: #dadada url(index/baku.jpg) no-repeat center contain;
-  margin: 20px auto;
-  width: 60%;
-
+div {
+  display: inline-block;
 }
 
-.preview London {
-  background: #dadada url(index/london.png) no-repeat center contain;
-  margin: 20px auto;
-  width: 90%;
+.baku {
+  background: url(images/baku.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
 }
 
-.preview Madrid {
-  background: #dadada url(index/madrid.jpg) no-repeat center contain;
-  margin: 20px auto;
-  width: 90%;
+.london {
+  background: url(images/london.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
 }
 
-.preview Rome {
-  background: #dadada url(index/rome.jpg) no-repeat center contain;
-  margin: 20px auto;
-  width: 90%;
+.madrid {
+  background: url(images/madrid.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.rome {
+  background: url(images/rome.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
 }
 
 /* code added to create two-column design */
-@media all and (min-width: 575px){
+@media screen and (min-width: 575px){
   div {
     margin: 1%;
     width: 48%;
@@ -71,7 +94,7 @@ h2 {
 }
 
 /* code added to create four-column design */
-@media all and (min-width: 991px){
+@media screen and (min-width: 991px){
   div {
     margin: auto;
     width: 26%;
